@@ -1,0 +1,198 @@
+/*Style Box-sizing seluruh elemen HTML */
+*
+    {
+        box-sizing: border-box;
+    }
+/*Style Content*/
+#content
+    {
+        float: left;
+        width: 75%;
+    }
+
+/*Style body*/
+body
+    {
+        font-family: 'Inconsolata', monospace;
+        background-color: #981815;
+        margin: 0;
+        padding: 0;
+    }
+
+/*Style Header*/
+header
+    {
+        padding: 17px;
+        width: auto;
+    }
+
+.header1
+    {
+        font-size: 20px;
+        padding: 60px;
+        background-color: whitesmoke;
+        text-align: center;
+        color: goldenrod;
+    }
+.warna
+    {
+        color: goldenrod;
+    }
+
+/*Style Navigasi*/
+nav li 
+    {
+    display: inline;
+    list-style-type: none;
+    margin-right: 2%;
+    }
+
+nav 
+    {
+        background-color: #981815;
+        position: sticky;
+        padding: 5px;
+        top: 0;
+    }
+
+nav a
+    {
+        color: goldenrod;
+        font-size: 18px;
+        font-weight: 90%;
+        text-decoration: none;
+    }
+
+nav a:hover
+    {
+        font-size: 17px;
+        font-weight: 400px;
+        text-decoration: none;
+        text-justify: auto;
+        color: goldenrod;
+    }
+
+/*Style Main*/
+
+main
+    {
+        padding: 20px;
+        overflow: auto;
+    }
+
+/*Stle h2 h3*/
+h2,h3
+    {
+        color: rgb(56, 55, 55);
+        text-align: center;
+    }
+.hh
+    {
+        text-align: left;
+        margin-top: auto;
+        color: goldenrod;
+    }
+
+/*Style Paragraf*/
+p
+    {
+        display: block;
+        color: whitesmoke;
+    }
+
+/*Style img*/
+img
+    {
+       padding: 15px;
+       width: auto;
+       height: auto;
+       float: left;
+    }
+
+.gambar
+    {
+        padding: 15px;
+        width: 50;
+        object-position: center;
+        
+        
+    }
+
+/*Style Artikel*/
+.card
+    {
+        -webkit-box-shadow: 10px 10px 252px 196px rgba(209,67,86,1);
+        -moz-box-shadow: 10px 10px 252px 196px rgba(209,67,86,1);
+        box-shadow: 10px 10px 252px 196px rgba(209,67,86,1);
+        border-radius: 5px;
+        padding: 20px;;
+    }
+
+/*Style aside*/
+aside
+    {
+        float: right;
+        width: 25%;
+        padding-left: 20px;
+       
+        
+    }
+
+/*style table*/
+
+table
+    {
+        text-align: left;
+    }
+
+td
+    {
+        color: whitesmoke;
+    }
+
+/*Style footer*/
+footer
+    {
+        padding: auto;
+        text-align: center;
+        color: white;
+        background-color: #981815;
+        padding-bottom: 15px;
+        
+    }
+
+/*morestyle*/
+
+a
+    {
+        text-decoration: none;
+        color: goldenrod;
+    }
+
+figcaption
+    {
+        color: goldenrod;
+    }
+.clear
+    {
+        clear: left;
+    }
+.container
+    {
+        width: auto;
+        border: 4px solid black
+    }
+/*Style fonts menggunakan google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Patrick+Hand&display=swap');
+
+/*Tambahan*/
+@media screen and (max-width: 1000px)
+
+    {
+        #content,
+        aside
+        {
+            width: 100%;
+            padding: 0;
+        }
+    }
